@@ -6,8 +6,10 @@ D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\App.WebApi.deps.js
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\App.WebApi.runtimeconfig.json
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\App.WebApi.dll
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\App.WebApi.pdb
-D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\obj\Debug\net9.0\App.WebApi.csproj.AssemblyReference.cache
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\obj\Debug\net9.0\App.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Work\Project\RestAPI\ASPIREAPI\App.WebApi\obj\Debug\net9.0\App.WebApi.AssemblyInfoInputs.cache
