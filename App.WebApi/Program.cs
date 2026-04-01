@@ -1,3 +1,6 @@
+using App.Application.Auth.Interfaces;
+using App.Infrastructure.Auth;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add controller support

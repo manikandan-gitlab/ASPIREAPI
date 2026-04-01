@@ -110,6 +110,29 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "App.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/App.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Application.dll": {}
+        }
+      },
+      "App.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "App.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -538,10 +561,22 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "App.Application/1.0.0": {
+      "type": "project",
+      "path": "../App.Application/App.Application.csproj",
+      "msbuildProject": "../App.Application/App.Application.csproj"
+    },
+    "App.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../App.Infrastructure/App.Infrastructure.csproj",
+      "msbuildProject": "../App.Infrastructure/App.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "App.Application >= 1.0.0",
+      "App.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 10.1.7"
     ]
   },
@@ -551,11 +586,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\App.WebApi.csproj",
+      "projectUniqueName": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\App.WebApi.csproj",
       "projectName": "App.WebApi",
-      "projectPath": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\App.WebApi.csproj",
+      "projectPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\App.WebApi.csproj",
       "packagesPath": "C:\\Users\\manikandan.dhanabal\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\obj\\",
+      "outputPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manikandan.dhanabal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -569,7 +604,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj": {
+              "projectPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj"
+            },
+            "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Infrastructure\\App.Infrastructure.csproj": {
+              "projectPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Infrastructure\\App.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

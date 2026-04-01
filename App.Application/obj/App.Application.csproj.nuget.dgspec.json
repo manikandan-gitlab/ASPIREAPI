@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj": {}
+    "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj": {
+    "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj",
+        "projectUniqueName": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj",
         "projectName": "App.Application",
-        "projectPath": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj",
+        "projectPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\App.Application.csproj",
         "packagesPath": "C:\\Users\\manikandan.dhanabal\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\obj\\",
+        "outputPath": "d:\\Work\\Project\\RestAPI\\ASPIREAPI\\App.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manikandan.dhanabal\\AppData\\Roaming\\NuGet\\NuGet.Config"
